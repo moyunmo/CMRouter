@@ -9,9 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Conform the protocol<CMRouterProtocol>  and register
+Conform the protocol `CMRouterProtocol` and register
 
-```CM_Register_MODULE(user/info);```
+`CM_Register_MODULE(user/info);`
 
 Get ViewController from URL.
 ```

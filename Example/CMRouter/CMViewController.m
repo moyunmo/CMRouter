@@ -34,8 +34,8 @@
     if (indexPath.row == 0) {
         vc = [[CMRouter sharedInstance] controllerWithURL:@"Cmall://user/info"];
     } else if (indexPath.row == 1) {
-//        vc = [[CMRouter sharedInstance] controllerWithURL:@"Cmall://user/register?name=moyun&password=123456"];
-        vc = [[CMRouter sharedInstance] controllerWithURL:@"user/register" userInfo:@{@"name":@"moyun",@"password":@"123456"}];
+        vc = [[CMRouter sharedInstance] controllerWithURL:@"Cmall://user/register?name=moyun&password=123456"];
+//        vc = [[CMRouter sharedInstance] controllerWithURL:@"user/register" userInfo:@{@"name":@"moyun",@"password":@"123456"}];
     } else if (indexPath.row == 2) {
         vc = [[CMRouter sharedInstance] controllerWithURL:@"user/login" userInfo:@{@"name":@"moyun",@"password":@"123456"} complete:^(NSString *tag, id result) {
             NSLog(@"我是回调tag:%@,我是回调数据:%@",tag,result);
