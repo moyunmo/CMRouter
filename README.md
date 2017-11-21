@@ -9,6 +9,15 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+Conform the protocol<CMRouterProtocol>  and register
+
+```CM_Register_MODULE(user/info);```
+
+Get ViewController from URL.
+```
+UIViewController *viewController = [[CMRouter sharedInstance] controllerWithURL:@"Cmall://user/info?userId=123&"]
+```
+
 ## Requirements
 
 ## Installation
@@ -22,7 +31,7 @@ pod 'CMRouter'
 
 ## Author
 
-momo605654602@gmail.com, moyunmo@hotmail.com
+Moyun, moyunmo@hotmail.com
 
 ## License
 
