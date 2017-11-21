@@ -1,0 +1,16 @@
+PODS:
+  - CMRouter (0.1.0)
+
+DEPENDENCIES:
+  - CMRouter (from `../`)
+
+EXTERNAL SOURCES:
+  CMRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMRouter: 49798ce52b0bba9224ed1de839ce7ae78450a207
+
+PODFILE CHECKSUM: 75cc5ec071ad4c4eddb9011c181a450f28eb1e7d
+
+COCOAPODS: 1.2.0

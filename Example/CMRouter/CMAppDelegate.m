@@ -2,17 +2,18 @@
 //  CMAppDelegate.m
 //  CMRouter
 //
-//  Created by momo605654602@gmail.com on 11/20/2017.
+//  Created by momo605654602@gmail.com on 8/20/2017.
 //  Copyright (c) 2017 momo605654602@gmail.com. All rights reserved.
 //
 
 #import "CMAppDelegate.h"
+#import <CMRouter/CMRouter.h>
 
 @implementation CMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[CMRouter sharedInstance] setUpMoudles];
     return YES;
 }
 

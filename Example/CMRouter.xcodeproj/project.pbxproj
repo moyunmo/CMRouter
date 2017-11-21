@@ -22,6 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		77F9143D1FC2EBDE00F09815 /* CMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F9143C1FC2EBDE00F09815 /* CMBViewController.m */; };
+		77F914511FC4254C00F09815 /* CMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F914501FC4254C00F09815 /* CMCViewController.m */; };
+		77F914541FC4255500F09815 /* CMDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F914531FC4255500F09815 /* CMDViewController.m */; };
 		7AA58E4B38AA4CCECA8A0646 /* Pods_CMRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27554DDE1A9B166859388D60 /* Pods_CMRouter_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E695715B321FC5DF3F57E9C /* CMRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CMRouter.podspec; path = ../CMRouter.podspec; sourceTree = "<group>"; };
+		1E695715B321FC5DF3F57E9C /* CMRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CMRouter.podspec; path = ../CMRouter.podspec; sourceTree = "<group>"; };
 		2469BC2BEDCAC88D9158581E /* Pods-CMRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMRouter_Tests/Pods-CMRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27554DDE1A9B166859388D60 /* Pods_CMRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C983B62B84BB83F2F64724B /* Pods_CMRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +63,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6887DE49D641AAC41F477871 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6887DE49D641AAC41F477871 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F9143B1FC2EBDE00F09815 /* CMBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBViewController.h; sourceTree = "<group>"; };
+		77F9143C1FC2EBDE00F09815 /* CMBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBViewController.m; sourceTree = "<group>"; };
+		77F9144F1FC4254C00F09815 /* CMCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMCViewController.h; sourceTree = "<group>"; };
+		77F914501FC4254C00F09815 /* CMCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMCViewController.m; sourceTree = "<group>"; };
+		77F914521FC4255500F09815 /* CMDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMDViewController.h; sourceTree = "<group>"; };
+		77F914531FC4255500F09815 /* CMDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMDViewController.m; sourceTree = "<group>"; };
 		810B3A0DEE55D5C2C23183F4 /* Pods-CMRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMRouter_Example/Pods-CMRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0CD4655EDAC619FDEC7EA8E /* Pods-CMRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMRouter_Tests/Pods-CMRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BCB738A1D139EB90DD18B56B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BCB738A1D139EB90DD18B56B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D5F304FFC1436CA7FFADA0B4 /* Pods-CMRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMRouter_Example/Pods-CMRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +146,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CMViewController.h */,
 				6003F5A6195388D20070C39A /* CMViewController.m */,
+				77F9143B1FC2EBDE00F09815 /* CMBViewController.h */,
+				77F9143C1FC2EBDE00F09815 /* CMBViewController.m */,
+				77F9144F1FC4254C00F09815 /* CMCViewController.h */,
+				77F914501FC4254C00F09815 /* CMCViewController.m */,
+				77F914521FC4255500F09815 /* CMDViewController.h */,
+				77F914531FC4255500F09815 /* CMDViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,9 +262,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CM;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "momo605654602@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DT68QGR8Y9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -394,9 +412,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F914511FC4254C00F09815 /* CMCViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				77F9143D1FC2EBDE00F09815 /* CMBViewController.m in Sources */,
+				77F914541FC4255500F09815 /* CMDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,19 +475,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -494,18 +526,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -524,12 +567,15 @@
 			baseConfigurationReference = 810B3A0DEE55D5C2C23183F4 /* Pods-CMRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DT68QGR8Y9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMRouter/CMRouter-Prefix.pch";
 				INFOPLIST_FILE = "CMRouter/CMRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +585,15 @@
 			baseConfigurationReference = D5F304FFC1436CA7FFADA0B4 /* Pods-CMRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DT68QGR8Y9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMRouter/CMRouter-Prefix.pch";
 				INFOPLIST_FILE = "CMRouter/CMRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

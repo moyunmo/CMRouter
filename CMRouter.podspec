@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ URL router for iOS
                        DESC
 
-  s.homepage         = 'https://github.com/momo605654602@gmail.com/CMRouter'
+  s.homepage         = 'https://github.com/moyunmo/CMRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'momo605654602@gmail.com' => 'moyunmo@hotmail.com' }
-  s.source           = { :git => 'https://github.com/momo605654602@gmail.com/CMRouter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/moyunmo/CMRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

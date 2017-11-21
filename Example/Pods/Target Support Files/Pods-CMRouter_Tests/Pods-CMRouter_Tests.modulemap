@@ -1,0 +1,6 @@
+framework module Pods_CMRouter_Tests {
+  umbrella header "Pods-CMRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
