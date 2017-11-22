@@ -138,7 +138,8 @@ NSString *CMModuleNameForClass(Class cls)
 
 - (NSString *)filterAppSchemeWithRouter:(NSString *)router
 {
-    NSURLComponents *components = [NSURLComponents componentsWithString:router];
+    NSString *encodeRouter = [router stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSURLComponents *components = [NSURLComponents componentsWithString:encodeRouter];
     NSString *scheme = components.scheme;
     return scheme.length > 0 ? [router substringFromIndex:scheme.length + 2] : router;
 }

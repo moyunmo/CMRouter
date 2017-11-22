@@ -15,7 +15,7 @@
 
 @implementation CMBViewController
 
-CM_Register_MODULE(user/register);
+CM_Register_MODULE(user/注册);
 
 - (void)viewDidLoad {
     [super viewDidLoad];
